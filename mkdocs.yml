@@ -1,1 +1,15 @@
-site_name: My Docs
+theme: 
+    name: readthedocs
+site_name: Създаване на документация с помощта на MkDocs
+pages: 
+#    - Начало:
+        - Въведение: index.md
+        - Инсталация: installation.md
+        - Създаване на MkDocs проект: create-mkdocs-project.md
+        - Markdown синтаксис: markdown-syntax.md
+        - Използеане на GIT: using-git.md
+        - Полчезни връзки и използвани източници: useful-links.md
+markdown_extensions:
+    - admonition
+    - toc
+    - attr_list 

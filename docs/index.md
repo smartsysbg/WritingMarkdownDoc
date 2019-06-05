@@ -1,17 +1,8 @@
-# Welcome to MkDocs
-
-For full documentation visit [mkdocs.org](https://mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+**MkDocs** е **бърз** , **лесен** и **удобен** генератор на
+статично съдържание. Той е предназначен за изграждане на проектна
+документация. Документацията се състои от текстови файли в **Markdown** формат и
+един **YAML** конфигурационен файл. **MkDocs**
+изгражда напълно статични **HTML** сайтове, които могат да бъдат
+лесно настанени в **GitHub** **pages**, **Amazon S3**, или [където и да
+е](https://www.mkdocs.org/user-guide/deploying-your-docs/) другаде по
+ваш избор.
